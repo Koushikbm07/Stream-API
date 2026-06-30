@@ -13,7 +13,6 @@ public class Main {
 
         Consumer<Integer> printNumber = System.out::println;
 
-
         Function<String, Integer> parseInteger = x -> Integer.parseInt(x);
 
 
